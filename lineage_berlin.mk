@@ -22,10 +22,6 @@ PRODUCT_MODEL := motorola edge 20
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.audio.enable.cirrus.speaker=true \
-    vendor.audio.feature.spkr_prot.enable=true
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="berlin_global-user 13 T1RGS33.135-109-9-29 695e0-d4b251 release-keys" \
     BuildFingerprint=motorola/berlin_global/berlin:13/T1RGS33.135-109-9-29/695e0-d4b251:user/release-keys \

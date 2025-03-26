@@ -32,7 +32,7 @@ BOARD_SUPER_PARTITION_SIZE := 14227079168
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/platform/soc/a94000.i2c/i2c-2/2-0049/double_click"
 
 # Audio
-AUDIO_FEATURE_MOTOROLA_CIRRUS := true
+AUDIO_FEATURE_ENABLED_EXT_AMPLIFIER := true
 
 # Properties
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
