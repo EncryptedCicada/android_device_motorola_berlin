@@ -31,6 +31,9 @@ BOARD_SUPER_PARTITION_SIZE := 14227079168
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/platform/soc/a94000.i2c/i2c-2/2-0049/double_click"
 
+# Audio
+AUDIO_FEATURE_MOTOROLA_CIRRUS=true
+
 # Properties
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
@@ -48,3 +51,4 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := 38
 
 # inherit from the proprietary version
 include vendor/motorola/berlin/BoardConfigVendor.mk
+
