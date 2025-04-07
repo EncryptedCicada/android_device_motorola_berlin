@@ -6,6 +6,7 @@ persist.vendor.audio_fx.waves.processing=true
 persist.vendor.audio_fx.waves.processing_nx=true
 persist.vendor.audio_fx.waves.systrace=true
 vendor.audio.feature.spkr_prot.enable=true
+vendor.audio.enable.cirrus.speaker=true
 
 # Camera
 persist.vendor.camera.physical.num=4
