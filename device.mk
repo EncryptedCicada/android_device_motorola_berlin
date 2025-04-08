@@ -28,8 +28,8 @@ PRODUCT_PACKAGES += \
     WifiResBerlin
 
 # audio
-PRODUCT_PACKAGES += \
-		libspkrprot
+#PRODUCT_PACKAGES += \
+#		libspkrprot
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/sku_yupik/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_yupik/audio_platform_info.xml \

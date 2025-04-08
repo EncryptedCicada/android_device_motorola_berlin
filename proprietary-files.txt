@@ -30,6 +30,7 @@ vendor/lib/libc++_shared.so
 vendor/lib64/libacdbloader.so
 
 # Audio - soundfx
+vendor/lib/soundfx/libspeakerbundle.so
 vendor/lib/soundfx/libmaxxeffect-cembedded.so
 
 # Camera
